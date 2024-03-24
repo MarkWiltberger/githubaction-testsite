@@ -5,7 +5,7 @@
  */
 function obtainLabels(context) {
   const labelsObject = context.payload.issue.label;
-  console.log(labrelsObject);
+  console.log(labelsObject);
   const labels = labelsObject.map((label) => label.name);
   return labels;
 }
