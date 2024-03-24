@@ -2,7 +2,7 @@ name: Move Closed Issues Test
 
 on:
   workflow_dispatch:
-    branches: [ gh-pages ]
+    branches: [main]
   issues:
     types:
       - closed
