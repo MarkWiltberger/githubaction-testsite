@@ -4,7 +4,6 @@
 
 function main({ context }) {
   console.log("console log context");
-  console.log(context);
   // const issueLabels = obtainLabels(context);
 }
 
