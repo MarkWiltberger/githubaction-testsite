@@ -3,9 +3,6 @@ name: Move Closed Issues Test
 on:
   workflow_dispatch:
     branches: [main]
-  issues:
-    types:
-      - closed
 jobs:
   move-closed-issue-test:
     runs-on: ubuntu-latest
