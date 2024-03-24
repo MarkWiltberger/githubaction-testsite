@@ -1,4 +1,4 @@
-const obtainLabels = require("../utils/obtain-labels");
+// const obtainLabels = require("../utils/obtain-labels-inttest");
 
 //   const labelsObject = context.payload.issue.labels;
 
