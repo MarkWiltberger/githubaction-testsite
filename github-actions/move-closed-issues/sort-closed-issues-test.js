@@ -1,13 +1,10 @@
 // const obtainLabels = require('../utils/obtain-labels')
 
+//   const labelsObject = context.payload.issue.labels;
 
 function main({ context }) {
-
-  console.log(context)
-
+  console.log(context.payload);
 }
-
-
 
 // /**
 //  * Check the labels of an issue, and return the column the issue should be sorted into when closed
