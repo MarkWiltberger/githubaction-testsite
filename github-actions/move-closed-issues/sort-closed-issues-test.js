@@ -3,7 +3,8 @@
 //   const labelsObject = context.payload.issue.labels;
 
 function main({ context }) {
-  console.log(context.payload);
+  console.log("context.payload.issue:");
+  console.log(context.payload.issue);
 }
 
 // /**
