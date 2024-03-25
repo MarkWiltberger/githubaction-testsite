@@ -7,7 +7,8 @@ jobs:
   move-closed-issue-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Sort Closed Issues by Label
+      - uses: actions/checkout@v4
+        - name: Sort Closed Issues by Label
         uses: actions/github-script@v7
         id: sort-closed-issues-test
         with:
