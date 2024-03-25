@@ -4,7 +4,7 @@
  * @return {Array} - returns an array of all the labels
  */
 function obtainLabels(context) {
-  //  const labelsObject = context.payload.issue.label;
+  const labelsObject = context.payload.issue.label;
   console.log("context:");
   console.log(context);
   console.log("labelsObject:");
