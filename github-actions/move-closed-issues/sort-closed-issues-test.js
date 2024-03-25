@@ -5,6 +5,7 @@ const obtainLabels = require("../utils/obtain-labels-inttest");
 function main({ context }) {
   //console.log("console log context");
   const issueLabels = obtainLabels(context);
+  return issueLabels;
 }
 
 module.exports = main;
