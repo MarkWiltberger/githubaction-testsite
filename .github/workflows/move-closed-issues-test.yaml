@@ -3,10 +3,6 @@ on:
   issues:
     types:
       - closed
-
-on:
-  workflow_dispatch:
-    branches: [main]
 jobs:
   move-closed-issue-test:
     runs-on: ubuntu-latest
