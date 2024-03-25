@@ -1,4 +1,8 @@
 name: Move Closed Issues Test
+on:
+  issues:
+    types:
+      - closed
 
 on:
   workflow_dispatch:
@@ -7,7 +11,6 @@ jobs:
   move-closed-issue-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
       - name: Sort Closed Issues by Label
         uses: actions/github-script@v7
         id: sort-closed-issues-test
